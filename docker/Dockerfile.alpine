@@ -142,7 +142,6 @@ RUN mkdir /data && \
         openssl \
         tzdata
 
-VOLUME /data
 EXPOSE 80
 
 # Copies the files from the context (Rocket.toml file and web-vault)
